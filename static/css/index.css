@@ -119,6 +119,53 @@ body {
   width: 100%;
 }
 
+.video-with-logo-mask {
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgb(38 50 74 / 12%);
+  overflow: hidden;
+  position: relative;
+}
+
+.video-with-logo-mask video {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.video-logo-mask {
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  background: rgb(228 232 240 / 24%);
+  height: 62%;
+  left: 30%;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 27%;
+  z-index: 1;
+}
+
+.video-logo-mask-middle-view {
+  left: 53.8%;
+  width: 18.83%;
+}
+
+.video-logo-mask-single-view {
+  left: 52.5%;
+  width: 47.25%;
+}
+
+.video-logo-mask-small-upper {
+  aspect-ratio: 1;
+  height: auto;
+  left: 18%;
+  width: 12%;
+}
+
+.video-logo-mask-small-upper-single-view {
+  left: 31.5%;
+  width: 21%;
+}
+
 .task-video-card figcaption,
 .method-figure figcaption {
   color: var(--ink);
