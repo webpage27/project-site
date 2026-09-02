@@ -149,9 +149,19 @@ body {
   width: 18.83%;
 }
 
+.video-logo-mask-left-view-wide-left {
+  left: 25.7%;
+  width: 31.3%;
+}
+
 .video-logo-mask-single-view {
   left: 52.5%;
   width: 47.25%;
+}
+
+.video-logo-mask-single-view-wide-left {
+  left: 45%;
+  width: 54.75%;
 }
 
 .video-logo-mask-small-upper {
